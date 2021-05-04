@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Javascript Weather App</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+      integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="weather">
+      <div class="weather-search">
+        <input type="text" id="weather-city" placeholder="Enter City.." />
+      </div>
+      <div class="weather-info">
+        <div class="weather-detail">
+          <div class="city" id="city">Amrawati IN</div>
+          <div class="date" id="date">10 june(Wednesday), 2020</div>
+        </div>
+        <div class="weather-status">
+          <div class="temp" id="temp">34&deg; C</div>
+          <div class="temp-minmx" id="minmax">
+            32&deg;C(min) / 34&deg;C(max)
+          </div>
+          <div class="weather-situation" id="weather-situation">Clear</div>
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
